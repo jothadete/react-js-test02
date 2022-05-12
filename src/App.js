@@ -2,6 +2,12 @@ import React from "react";
 import "./style.css";
 
 export default function App() {
+
+  function add(number1, number2){
+    return number1 + number2
+  }
+
+
   return (
     <div>
       <h1>Hello StackBlitz!</h1>
@@ -23,6 +29,8 @@ export default function App() {
       <p>Master-Branch auf den Stand von stackBlitz gebracht. </p>
       <p>Dateien verändert. In VScode dann erst Änderungen "stagen", dann committen und dann synchronisieren (push).</p>
       <p>Nach der Bearbeitung in VSCODE und dem commit / push: Master auf StackBlitz mergen. Hierzu zunächst in den Branch stackBlitz wechseln (unten links in der blauen Leiste) nachdem die Änderungen durch sind. Dann dort unter Source-Control Master auf Stackblitz mergen bzw. dies aufsetzen. In GitHub bestätigen. </p>
+      <h2>StackBlitz 3 - function und test</h2>
+      <p>Erste function und ein - erst einmal auf die Funktion nicht bezogener Test angelegt. Entscheiden ist es, dass der Test in VSCode richtig ausgeführt werden kann. commit und push und Ende hier.</p>
     </div>
   );
 }

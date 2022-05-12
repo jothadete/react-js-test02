@@ -1,16 +1,11 @@
 import React from "react";
 import "./style.css";
 
-export default function App() {
-
-  function add(number1, number2){
-    return number1 + number2
-  }
-
+export function App() {
 
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <h1>Hello StackBlitz! </h1>
       <p>Start editing to see some magic happen :)</p>
       <h2>StackBlitz</h2>
       <p>Auf Stackblitz neu angelegt. TypeScript funktionierte nicht.</p>
@@ -31,6 +26,14 @@ export default function App() {
       <p>Nach der Bearbeitung in VSCODE und dem commit / push: Master auf StackBlitz mergen. Hierzu zunächst in den Branch stackBlitz wechseln (unten links in der blauen Leiste) nachdem die Änderungen durch sind. Dann dort unter Source-Control Master auf Stackblitz mergen bzw. dies aufsetzen. In GitHub bestätigen. </p>
       <h2>StackBlitz 3 - function und test</h2>
       <p>Erste function und ein - erst einmal auf die Funktion nicht bezogener Test angelegt. Entscheiden ist es, dass der Test in VSCode richtig ausgeführt werden kann. commit und push und Ende hier.</p>
+        <h2>Webstorm - einmal statt VSCode</h2>
+        <p>npm install @testing-library/react im Terminal ausgeführt, weil diese Library nach npm install noch fehlen sollte. Danach funktionierten die Tests. Ende hier.</p>
+
+
     </div>
   );
+}
+
+export function addiere(number1, number2){
+    return number1 + number2
 }

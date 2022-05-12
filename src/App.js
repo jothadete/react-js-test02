@@ -22,6 +22,7 @@ export default function App() {
       <p>Geöffnet, "pull from... - dort das Repo erfasst und den Branch "stackBlitz" ausgewählt. Der Bearbeitungsstand aus StackBlitz ist da.</p>
       <p>Master-Branch auf den Stand von stackBlitz gebracht. </p>
       <p>Dateien verändert. In VScode dann erst Änderungen "stagen", dann committen und dann synchronisieren (push).</p>
+      <p>Nach der Bearbeitung in VSCODE und dem commit / push: Master auf StackBlitz mergen. Hierzu zunächst in den Branch stackBlitz wechseln (unten links in der blauen Leiste) nachdem die Änderungen durch sind. Dann dort unter Source-Control Master auf Stackblitz mergen bzw. dies aufsetzen. In GitHub bestätigen. </p>
     </div>
   );
 }

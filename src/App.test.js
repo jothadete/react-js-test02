@@ -1,8 +1,13 @@
+import React from "react";
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import {App, addiere } from './App';
 
-test('renders "Hello', () => {
+
+test('renders "App"', () => {
   render(<App />);
-  const element = screen.getByText(/Hello/i);
-  expect(element).toBeInTheDocument();
+  expect(1).not.toBe(2);
+});
+
+test('function addiere', () => {
+  expect(addiere(1,2)).toBe(3);
 });

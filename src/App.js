@@ -18,6 +18,10 @@ export default function App() {
       <p>Im geöffneten Projekt die Aktualisierungspfeile neben dem Repo geklickt. Projekt auf dem Status des Repo.</p>
       <p>Neuen Branch angelegt (Name: stackBlitz). Die Beschreibung hier ergänzt (aber "StackBlitz 2").</p>
       <p>Commit-Button geklickt. Neuer Inhalt in GitHub damit gespeichert im Branch "stackBlitz". Ende StackBlitz 2.</p>
+      <h2>VSCode 2</h2>
+      <p>Geöffnet, "pull from... - dort das Repo erfasst und den Branch "stackBlitz" ausgewählt. Der Bearbeitungsstand aus StackBlitz ist da.</p>
+      <p>Master-Branch auf den Stand von stackBlitz gebracht. </p>
+      <p>Dateien verändert. In VScode dann erst Änderungen "stagen", dann committen und dann synchronisieren (push).</p>
     </div>
   );
 }
